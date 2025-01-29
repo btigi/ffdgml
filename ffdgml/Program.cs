@@ -15,9 +15,9 @@ var outFile = string.Empty;
 var successParagraph = string.Empty;
 if (Debugger.IsAttached)
 {
-    inFile = @"..\..\..\..\resources\txt\40-Dead-of-Night.txt";
-    outFile = @"..\..\..\..\resources\dgml\40-Dead-of-Night.dgml";
-    successParagraph = "400";
+    inFile = @"..\..\..\..\resources\txt\42-Black-Vein-Prophecy.txt";
+    outFile = @"..\..\..\..\resources\dgml\42-Black-Vein-Prophecy.dgml";
+    successParagraph = "71";
 }
 else
 {
