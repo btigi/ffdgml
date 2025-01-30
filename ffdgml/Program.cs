@@ -46,6 +46,12 @@ var line = 0;
 var newParagraph = true;
 while (line < lines.Length)
 {
+    if (lines[line].StartsWith('#'))
+    {
+        line++;
+        continue;
+    }
+
     if (newParagraph)
     {
         newParagraph = false;

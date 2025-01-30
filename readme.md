@@ -63,6 +63,8 @@ This example contains three blocks, identifiers 1, 2 and 3. Block 1  links to bl
 3
 ```
 
+Lines starting with a # character act as comments and are ignored.
+
 The format exists in order to be perhaps the fastest way to transcribe the paragraph relationships into text.
 
 
